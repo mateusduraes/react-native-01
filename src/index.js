@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import './config/ReactotronConfig';
 
 const styles = StyleSheet.create({
   container: {
@@ -15,11 +16,13 @@ const styles = StyleSheet.create({
   },
 });
 
+console.tron.log('dasda');
+
 const App = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>Welcome to react native</Text>
-      <Text style={styles.welcome}>Abaixdadadao</Text>
+      <Text style={styles.welcome}>Abadixo</Text>
     </View>
   );
 };
